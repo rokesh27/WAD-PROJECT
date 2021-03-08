@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     font-family: arial;
-    background:white;
+    background:aqua;
 }
 .adoption{
     position:absolute;
@@ -13,6 +13,7 @@ body{
     animation: animate 16s ease-in-out infinite;
    background-size: cover;
 }
+
 h1{
     text-align:center;
     font-size: xx-large;
