@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signupform</title>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script type="text/javascript" src="script1.js"></script>
+	<script type="text/javascript" src="script2.js"></script>
+</head>
+<body>
+
+<div class="rokesh">
+	<div class="form-box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMIYPQpAHWfspO8qrIdSO7Pkx-JpkIU03WVA&usqp=CAU" class="avatar">
+		<div class="button-box">
+			<div id="btn"></div>
+			<button type="button" class="toggle-btn" onclick="login()">login</button>
+			<button type="button" class="toggle-btn" onclick="signup()">sign up</button>
+
+		</div>
+		<form id="login" class="input-group">
+			<div class="input-box">
+				<i class="fa fa-user"></i>
+			<input type="text"  placeholder="user-id" required>
+		    </div>
+			 <div class="input-box">
+			 	<i class="fa fa-key"></i>
+        <input type="password" name="password" id="myInput" placeholder="Enter the password">
+        <span class="eye" onclick="myFunction()">
+        <i id="hide1" class="fa fa-eye"></i>
+        <i id="hide2" class="fa fa-eye-slash"></i>
+        </span>
+              </div>
+			
+			<input type="checkbox" class="check-box"><span class="rp">Remember Password</span>
+			<button type="submit" class="submit-btn">Login</button>
+			<a href="#"><i class="fa fa-key"></i>forgot password</a>
+		</form>
+		<form id="signup" class="input-group">
+			<div class="input-field">
+			<i class="fa fa-user"></i>
+					<input type="email" placeholder="user-id" required>
+				</div>
+				<div class="input-field">
+		<i class="fa fa-key"></i>
+			<input type="text" placeholder="Enter Password" required>
+		</div>
+		<div class="input-field">
+		<i class="fa fa-key"></i>
+			<input type="text"  placeholder="Confirm Password" required>
+			</div>
+			<input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+			<button type="submit" class="submit-btn">sign up</button>
+
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+	var x = document.getElementById("login");
+	var y = document.getElementById("signup");
+	var z = document.getElementById("btn");
+	function signup() {
+		x.style.left = "-400px";
+		y.style.left = "50px";
+		z.style.left = "110px";
+	}
+	function login() {
+		x.style.left = "50px";
+		y.style.left = "450px";
+		z.style.left = "0px";
+	}
+</script>
+</body>
+</html>
