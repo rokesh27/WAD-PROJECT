@@ -2,16 +2,18 @@
 <html>
     <head>
 <link rel="stylesheet" href="sponsor.css">
+<title> Sponsor A Child</title>
+
     </head>
     <body>
       <div class ="regform"><h1>Register Form</h1></div>
         <div class="form">
-        <form>
+        <form name="regform" >
             <label for="fname">First Name</label><br>
-            <input type="text"  placeholder="First Name" id="fname" name="fname"><br>
+            <input type="text"   placeholder="First Name" id="fname" name="fname" required ><br>
 
             <label for="lname">Last Name</label><br>
-            <input type="text" placeholder="Last Name" id="lname" name="lname"><br>
+            <input type="text" placeholder="Last Name" id="lname" name="lname" required><br>
             <label for="gender">Gender</label><br>
             <select  placeholder="Gender"id="gender" name="gender">
                 <option value="male"> Male</option>
@@ -21,25 +23,28 @@
             </select><br><br>
     
             <label for="email">Email</label><br>
-            <input type="email"  placeholder="E-mail"id="email" name="email"><br>
+            <input type="email"  placeholder="E-mail"id="email" name="email" required><br>
             <label for="phone">Phone Number</label><br>
-            <input type="number" placeholder="Phone NUmber" id="phone" name="phone"><br>
+            <input type="number" placeholder="Phone NUmber" id="phone" name="phone" required><br>
             <label for="role">Role</label><br>
             <input type="text"placeholder="Role" id="Role" name="Role"><br><br>
             
 
             <label for="amount">Amount you want to sponsor or donate</label><br>
-            <input type="number" placeholder="Amount"id="amount" name="amount"><br>  
+            <input type="number" placeholder="Amount"id="amount" name="amount" required><br>  
              <label for="Address">Address</label><br>
-              <textarea  id="Address" name="Address"placeholder="Address" rows="4" columns="50">
+              <textarea  id="Address" name="Address"placeholder="Address" rows="4" columns="50" required>
              </textarea><br><br>
             <label for="message"></label><br>
              <input type="text" placeholder="Write Your Message" id="message" name="message"><br><br>
                     
-<div class="submit">
-  <input type="submit" value="submit"><br><br><br>
-  </div>
+             <button onclick="myFunction()">Send</button>
         </form>
+        <script src="sponsor.js">
+    
+        </script>
     </body>
+    
 </div>
+
 </html>
