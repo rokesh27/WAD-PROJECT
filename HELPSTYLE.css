@@ -134,10 +134,38 @@ form{
 	outline: none;
 	overflow: hidden;
 }
-.EventOrganiser{
+.People{
 	position: relative;
 	left: 200px;
 	top: -37px;
+	line-height: 40px;
+	width: 302px;
+	height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	outline: none;
+	overflow: hidden;
+}
+.date{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 250px;
+	height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	outline: none;
+	overflow: hidden;
+}
+button{
+	position: relative;
+	left: 200px;
+	top: -17px;
 	line-height: 40px;
 	width: 302px;
 	height: 40px;
