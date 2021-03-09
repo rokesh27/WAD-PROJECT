@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 body{
-    background: url("https://media.gettyimages.com/photos/closeup-of-fruits-against-white-background-picture-id1220160080?k=6&m=1220160080&s=612x612&w=0&h=1M3-3OU-uJ8MyJIg3kguftNp392tBcRNo0djBGiHHVE=");
-background-repeat: no-repeat;
+    background: url("https://media.gettyimages.com/photos/mud-wall-background-picture-id1183909819?k=6&m=1183909819&s=612x612&w=0&h=OPiK8WJ_3hagA4LAbGNlcP63WRjT3ydHRiuRnFw5MBo=");
+     background-repeat: no-repeat;
 background-size: cover;
 }
 .header{
@@ -19,6 +19,8 @@ background-size: cover;
 .info{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    color:white;
+    
    
 }
 .last{
