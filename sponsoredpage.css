@@ -1,67 +1,142 @@
 
 *{
+    text-align: center;
     box-sizing: border-box;
 }
-.header{
+body{
     text-align: center;
-	color: orange;
+}
+.header{
+    text-align: left;
+	color:whitesmoke;
 	font-size: 30px;
 	padding:100px;
-    height:400px;
+    height:500px;
 	font-style: italic;
-    background:url("https://media.gettyimages.com/photos/african-primary-school-young-girl-in-a-class-room-lome-togo-picture-id1165311339?k=6&m=1165311339&s=612x612&w=0&h=qb4nU4-T6fAV2C2isVZtVaMyOU6zUghs7ZTv5OiRsiA=") ;
-background-size: 100% 50%;
-background-attachment: fixed;
-background-repeat: no-repeat;
+    background:url("https://media.gettyimages.com/photos/sad-child-picture-id597123997?k=6&m=597123997&s=612x612&w=0&h=7JqFQTGwuBTWhN3_iXk89B-ofaj9DkrpzAjGk67vXnQ=");
+    background-size: 100% 70%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.header h1{
+    font-size: 70px;
+    text-align: left;
+}
+.header h2{
+    font-size: 50px;
+    text-align: left;
+}
+.header h3{
+    font-size: 40px;
+    text-align: left;
 }
 .column1{
     width:48%;
     float: left;
     height:300px;
     padding:15px;
-    background: url("https://media.gettyimages.com/photos/father-helping-his-son-with-schoolwork-picture-id1240140094?k=6&m=1240140094&s=612x612&w=0&h=yLpSanWvdH6IqLtX7hMGHgLt5wpa01mgKVf2S_ar7eY=");
-    background-size: 750px 300px;
-background-repeat: no-repeat;
-margin:1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin:1%;
     
 }
 .column2{
     width:48%;
     float: left;
     font-style: oblique;
-    background-color: aqua;
+    background-color: grey;
+    color:white;
     height:300px;
     padding:15px;
     margin:1%;
+    font-size: x-large;
+
 }
 .column3{
-    width:48%;
-    float: left;
-    font-style: oblique;
-    background-color:orange;
-    height:300px;
-    padding:15px;
-    margin:1%;
-}
-.column4{
-    width:48%;
+    width:30%;
     float: left;
     height:300px;
     padding:15px;
-    background: url("https://media.gettyimages.com/photos/family-in-the-city-picture-id1210809980?k=6&m=1210809980&s=612x612&w=0&h=Y7tbsK0f9Rv9ZaOpctwmKg4FY39DqfZ1gUQvy-BRgiQ=");
-    background-size: 750px 300px;
-    margin:1%;
+background:url("https://media.gettyimages.com/photos/indian-rural-girls-picture-id182720270?k=6&m=182720270&s=612x612&w=0&h=O3EVgoY06puZ56czdfXJ-Z_swHXRVA0vf90Prvmpyos=");
 background-repeat: no-repeat;
+background-size: 500px 300px;
+margin:1%;
+}
+.row2 h2{
+    font-family: Trebuchet MS;
+    font-size: xx-large;
     
 }
-.button{
-    background-color: aqua;
+.column4{
+    width:30%;
+    float: left;
+    height:300px;
+    padding:15px;
+    background:url("https://media.gettyimages.com/photos/lessons-of-life-picture-id158565448?k=6&m=158565448&s=612x612&w=0&h=6gD13SC82Bmm5qVS_lHfpCAkGFJhHdkuX486s_A6wlY=");
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    margin:1%;
+}
+.column5{
+    width:30%;
+    float: left;
+    height:300px;
+    padding:15px;
+    background:url("https://media.gettyimages.com/photos/cheerful-children-lying-dawn-on-grass-picture-id522397820?k=6&m=522397820&s=612x612&w=0&h=yhUeAAGVA68QWCaIUoFr_raC-V3bWL3kEsYPr2cTo3w=");
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    margin:1%;
+}
+.column6{
+    width:30%;
+    float: left;
+    font-style: oblique;
+    background-color:gainsboro;
+    height:300px;
+    padding:15px;
+    margin:1%;
+    font-size: x-large;
+}
+.column7{
+    width:30%;
+    float: left;
+    font-style: oblique;
+    background-color:gainsboro;
+    height:300px;
+    padding:15px;
+    margin:1%;
+    font-size: x-large;
+
+}
+.column8{
+    width:30%;
+    float: left;
+    font-style: oblique;
+    background-color:gainsboro;
+    height:300px;
+    padding:15px;
+    margin:1%;
+    font-size: x-large;
+
+}
+
+  a{
+    background-color:seagreen;
+    color:whitesmoke;
     border-radius: 24px;
     border-style: solid;
     text-align:center;
     font-size: 20px;
-    width:35%;
-    
+    width:30%;
+    margin-left:3%;
+  text-decoration: none;
+ padding:14px 25px;
+ display:inline-block;
+        
+}
+.footer{
+    font-family: Trebuchet MS;
 }
 .row1:after {
     content: "";
@@ -69,6 +144,11 @@ background-repeat: no-repeat;
     clear:both;
     }
     .row2:after {
+        content: "";
+        display: table;
+        clear:both;
+     }
+     .row3::after{
         content: "";
         display: table;
         clear:both;
