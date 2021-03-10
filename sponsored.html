@@ -3,17 +3,24 @@
     <head>
 <link rel="stylesheet" href="sponsored.css">
 <title> Sponsor A Child</title>
+<script src="sponsored.js">
+    
+</script>
 
     </head>
     <body>
+        <div class="sponsor">
+            <h1>Meet children waiting for a sponsor</h1>
+            <p>Child sponsorship connects two people — a sponsor with a generous heart and a child. And Sponsorship continues to provide life-changing help to children.</p>
+        </div><br><br>
       <div class ="regform"><h1>Register Form</h1></div>
         <div class="form">
-        <form name="regform" >
+        <form name="regform" onsubmit="return form()"  method="POST">
             <label for="fname">First Name</label><br>
-            <input type="text"   placeholder="First Name" id="fname" name="fname" required ><br>
+            <input type="text"   placeholder="First Name" id="fname" name="fname"  ><br>
 
             <label for="lname">Last Name</label><br>
-            <input type="text" placeholder="Last Name" id="lname" name="lname" required><br>
+            <input type="text" placeholder="Last Name" id="lname" name="lname" ><br>
             <label for="gender">Gender</label><br>
             <select  placeholder="Gender"id="gender" name="gender">
                 <option value="male"> Male</option>
@@ -23,26 +30,26 @@
             </select><br><br>
     
             <label for="email">Email</label><br>
-            <input type="email"  placeholder="E-mail"id="email" name="email" required><br>
+            <input type="email"  placeholder="E-mail"id="email" name="email" ><br>
             <label for="phone">Phone Number</label><br>
-            <input type="number" placeholder="Phone NUmber" id="phone" name="phone" required><br>
+            <input type="number" placeholder="Phone NUmber" id="phone" name="phone" ><br>
             <label for="role">Role</label><br>
             <input type="text"placeholder="Role" id="Role" name="Role"><br><br>
             
 
             <label for="amount">Amount you want to sponsor or donate</label><br>
-            <input type="number" placeholder="Amount"id="amount" name="amount" required><br>  
+            <input type="number" placeholder="Amount"id="amount" name="amount" ><br>  
              <label for="Address">Address</label><br>
-              <textarea  id="Address" name="Address"placeholder="Address" rows="4" columns="50" required>
+              <textarea  id="Address" name="Address"placeholder="Address" rows="4" columns="50" >
              </textarea><br><br>
             <label for="message"></label><br>
              <input type="text" placeholder="Write Your Message" id="message" name="message"><br><br>
                     
-             <button onclick="myFunction()">Send</button>
+             <div class="submit">
+                 <input type="submit" value="Send" >
+             </div>
         </form>
-        <script src="sponsor.js">
-    
-        </script>
+        
     </body>
     
 </div>
