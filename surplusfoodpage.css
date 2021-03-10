@@ -138,6 +138,23 @@ body{
 .c1:hover, .c2:hover, .c3:hover{
   transform: rotateX(350deg);
 }
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 40%;
+  margin-right: 25%;
+  border-radius: 30px;
+}
+
+a:hover, a:active {
+  background-color: red;
+  padding:20px 30px;
+  box-shadow: 5px 5px green;
+}
   @media screen and (max-width:700px) {
     .column1, .column2, .column3, .column4, .c1{
         place-items: center;
