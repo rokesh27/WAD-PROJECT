@@ -63,6 +63,9 @@ h1{
 .form.register-form{
     display: none;
 }
+.login-form{
+    display: none;
+}
 
 
 
