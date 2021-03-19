@@ -3,15 +3,17 @@
 }
 
 .header{
-    background: url("https://media.gettyimages.com/photos/out-of-date-in-garbage-bin-in-front-of-fridge-picture-id500015069?k=6&m=500015069&s=612x612&w=0&h=ciiteaiqp5-S3YQaKdsph8QWno5kLqMDv9pbMz336fo=");
-   background-repeat: no-repeat;
+    background: url("https://media.gettyimages.com/photos/food-delivery-during-quarantine-picture-id1217134622?k=6&m=1217134622&s=612x612&w=0&h=-TpOLUl3LNOy7tjSVd3S2NohEb8Totm7ABV9Mi79FZI=");
+     background-repeat: no-repeat;
    padding:100px;
     background-size: 100% 100%;
     background-position: center;
    text-align: center;
-   color:red;
+   color:rgb(27, 214, 52);
    margin-left: 20%;
    margin-right: 20%;
+   border-radius: 100px;
+   
    
 }
 h1{
@@ -24,8 +26,9 @@ h1{
 .c11{
     float: left;
     width: 30%;
-    padding: 15px;
-    border-style: groove;
+   
+    background: url("https://www.shutterstock.com/video/clip-1054779125-throwing-away-uneaten-food-home-household-waste");
+   
     height:300px;
     border-collapse: collapse;
     margin:1%;
@@ -37,8 +40,8 @@ h1{
 .c12{
     float: left;
     width: 30%;
-    padding: 15px;
-    border-style: groove;
+    
+   
     height:300px;
     margin:1%;
     box-shadow: 5px 10px 8px #888888;
@@ -49,8 +52,6 @@ h1{
 .c13{
     float: left;
     width: 30%;
-    padding: 15px;
-    border-style: groove;
     height:300px;
     margin:1%;
     margin-bottom: 0;
@@ -62,9 +63,9 @@ h1{
     float: left;
     width: 30%;
     padding: 15px;
-    border-style: groove;
     height:300px;
     text-align:center;
+    font-size: large;
     margin:1%;
     margin-left: 3%;
     margin-top: 0;
@@ -78,8 +79,8 @@ h1{
     float: left;
     width: 30%;
     padding: 15px;
-    border-style: groove;
     height:300px;
+    font-size: large;
     text-align:center;
     margin:1%;
     margin-top: 0;
@@ -93,10 +94,10 @@ h1{
     float: left;
     width: 30%;
     padding: 15px;
-    border-style: groove;
     height:300px;
     text-align:left;
     margin:1%;
+    font-size: large;
     margin-top: 0;
     background:rgb(193, 201, 185);
     box-shadow: 5px 10px 8px #888888;
@@ -122,12 +123,13 @@ h1{
 .c32{
     float: left;
     width: 48%;
-    padding: 15px;
+    
     border-style:none;
     height:320px;
     text-align:left;
     margin:1%;
     margin-left: 0;
+
    
     box-shadow: 5px 10px 8px #888888
 
@@ -136,7 +138,7 @@ h1{
 .c41{
     float: left;
     width: 48%;
-    padding: 15px;
+    
     border-style: none;
     height:320px;
     text-align:left;
@@ -158,4 +160,36 @@ h1{
     background:rgb(193, 201, 185);
     box-shadow: 5px 10px 8px #888888
 
+}
+.row4{
+    clear: both;
+    display: table;
+}
+a{
+    border-style:solid;
+    display: block;
+    padding:15px;
+    text-align: center;
+    margin-top: 100%;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-color: chartreuse;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 1px 1px  greenyellow;
+   
+}
+a:hover{
+    color:whitesmoke;
+    background: yellowgreen;
+    cursor: pointer;
+}
+@media screen and (max-width:1020px){
+    .c11, .c12, .c13, .c21, .c22, .c23, .c31, .c32, .c41, .c42{
+        width: 100%;
+        height: 100%;
+    }
+    .c11, .c13{
+        display: none;
+    }
 }
