@@ -73,11 +73,11 @@
     padding: 8px;
     border-radius: 16px;
     margin: 24px 0;
-    font-size: 14px;
+    font-size: 15px;
   }
   
   .event .event-right .event-timing img {
-    height: 20px;
+    height: 21px;
     padding-right: 8px;
   }
   
@@ -94,7 +94,7 @@
     .event .event-left .event-date .date,
     .event .event-left .event-date .month {
       display: inline-block;
-      font-size: 24px;
+      font-size: 25px;
     }
   
     .event .event-left .event-date {
