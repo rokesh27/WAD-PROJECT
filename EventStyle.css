@@ -14,7 +14,7 @@
 .navbar{
 	width: 80%;
 	margin: auto;
-	padding 35px 10px;
+	padding 34px 10px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -25,7 +25,7 @@
 	width: 100;
 	background-color: white;
 	cursor: pointer;
-	margin-top: 13px;
+	margin-top: 12px;
 }
 .logo img:hover{
 	opacity: 1.5;
@@ -33,21 +33,21 @@
 .navbar ul li{
 	list-style: none;
 	display: inline-block;
-	margin: 0 22px;
-	margin-top: 16px;
+	margin: 0 20px;
+	margin-top: 15px;
 	position: relative; 
 	text-decoration: none;
 }
 .navbar ul li a{
 	text-decoration: none;
 	color: #fff;
-	margin-left: 26px;
-	margin-right: 26px;
+	margin-left: 24px;
+	margin-right: 24px;
 	text-transform: uppercase;
 }
 .navbar ul li::after{
 	content: '';
-	height: 4px;
+	height: 3px;
 	width: 0;
 	text-decoration: none;
 	background: #009688;
@@ -75,15 +75,15 @@
 .content p{
 	margin: 20px auto;
 	font-weight: 100;
-	line-height: 32px;
-	font-size: 22px;
+	line-height: 31px;
+	font-size: 21px;
 }
 button{
 	width: 200px;
 	padding: 16px 0;
 	text-align: center;
-	margin: 21px 11px;
-	border-radius: 26px;
+	margin: 20px 11px;
+	border-radius: 25px;
 	font-weight: bold;
 	border: 2px solid #009688;
 	background: #778899;
@@ -96,7 +96,7 @@ button{
 	background: #009688;
 	height: 100%;
 	width: 0;
-	border-radius: 26px;
+	border-radius: 25px;
 	position: absolute;
 	left: 0;
 	bottom: 0;
