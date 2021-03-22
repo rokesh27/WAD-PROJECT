@@ -12,9 +12,9 @@
 	font-family: sans-serif;
 }
 .navbar{
-	width: 80%;
+	width: 81%;
 	margin: auto;
-	padding 34px 10px;
+	padding 35px 10px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -25,7 +25,7 @@
 	width: 100;
 	background-color: white;
 	cursor: pointer;
-	margin-top: 12px;
+	margin-top: 13px;
 }
 .logo img:hover{
 	opacity: 1.5;
@@ -34,20 +34,20 @@
 	list-style: none;
 	display: inline-block;
 	margin: 0 20px;
-	margin-top: 15px;
+	margin-top: 14px;
 	position: relative; 
 	text-decoration: none;
 }
 .navbar ul li a{
 	text-decoration: none;
 	color: #fff;
-	margin-left: 24px;
-	margin-right: 24px;
+	margin-left: 25px;
+	margin-right: 25px;
 	text-transform: uppercase;
 }
 .navbar ul li::after{
 	content: '';
-	height: 3px;
+	height: 4px;
 	width: 0;
 	text-decoration: none;
 	background: #009688;
@@ -70,19 +70,19 @@
 }
 .content h1{
 	font-size: 50px;
-	margin-top: -50px;
+	margin-top: -51px;
 }
 .content p{
 	margin: 20px auto;
 	font-weight: 100;
-	line-height: 31px;
-	font-size: 21px;
+	line-height: 30px;
+	font-size: 20px;
 }
 button{
 	width: 200px;
-	padding: 16px 0;
+	padding: 15px 0;
 	text-align: center;
-	margin: 20px 11px;
+	margin: 20px 10px;
 	border-radius: 25px;
 	font-weight: bold;
 	border: 2px solid #009688;
