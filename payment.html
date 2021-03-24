@@ -1,25 +1,25 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-<title>PAYMENT FORM</title>
-<link rel="stylesheet" href="payment.css">
-<script src="payment.js"></script>
+    <head>
+<title>icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="pay.css">
+<script src="pay.js"></script>  
 
 </head>
-<body>
-    <div class="form">
+    <body>
+        <div class="form">
         <form name="paymentform" onsubmit ="return form()" method="POST" >
-            <h1>PAYMENT</h1>
-            <h2>Accepted Cards</h2>
-            <div class="icons">
-                <i class="fa fa-cc-amex"></i>
-                <i class="fa fa-cc-amex" style="font-size:24px"></i>
-                <i class="fa fa-cc-amex" style="font-size:36px"></i>
-                <i class="fa fa-cc-amex" style="font-size:48px;color:red"></i>
-                </div>
-        
- 
-            <label for="name"> Name on Card</label><br>
+         <h1>PAYMENT</h1>
+        <label for="name">Accepted Cards</label>
+        <div class="icon">
+          <i class="fa fa-cc-visa" style="color:navy;"></i>
+          <i class="fa fa-cc-amex" style="color:blue;"></i>
+          <i class="fa fa-cc-mastercard" style="color:red;"></i>
+          <i class="fa fa-cc-discover" style="color:orange;"></i>
+        </div>
+        <label for="name"> Name on Card</label><br>
             <input type="text"   placeholder="Name on Card" id="name" name="name"  ><br><br>
             <label for="card">Credit Card Number</label><br>
             <input type="number" placeholder="Credit Card Number" id="card" name="card" ><br><br>
@@ -49,8 +49,6 @@
                 <input  onsubmit ="return form()" method="POST" type="submit" value="PAY" >
             </div><br><br>
 
-        
-    </div>
-
-</body>
+        </div>
+    </body>
 </html>
