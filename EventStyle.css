@@ -70,9 +70,21 @@
 }
 .content h1{
 	font-size: 50px;
-	margin-top: -40px;
+	margin-top: -120px;
 }
 .content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 30px;
+	font-size: 20px;
+}
+.more{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 30px;
+	font-size: 20px;
+}
+.new{
 	margin: 20px auto;
 	font-weight: 100;
 	line-height: 30px;
@@ -86,11 +98,12 @@ button{
 	border-radius: 25px;
 	font-weight: bold;
 	border: 2px solid #009688;
-	background: #778899;
+	background: teal;
 	color: #fff;
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
+	margin-top: 20px;
 	}
  span{
 	background: #009688;
