@@ -1,21 +1,31 @@
 .event-container {
     font-family: "Roboto", sans-serif;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
-    background-color:darkseagreen;
+    background-color:GhostWhite;
   }
   
   .event-container h3.year {
     font-size: 40px;
     text-align: center;
-    border-bottom: 1px solid #b1b1b1;
+    border-bottom: 3px solid #b1b1b1;
+    background: #222;
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    padding: 9px 48px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
   }
   
   .event-container .event {
     box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
     display: flex;
-    border-radius: 8px;
-    margin: 32px 0;
+    border-radius: 10px;
+    margin: 30px 0;
   }
   
   .event .event-left {
@@ -25,7 +35,7 @@
     align-items: center;
     justify-content: center;
     color: #eee;
-    padding: 8px 48px;
+    padding: 9px 48px;
     font-weight: bold;
     text-align: center;
     border-radius: 8px 0 0 8px;
@@ -44,12 +54,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 24px;
+    padding: 0 23px;
   }
   
   .event .event-right h3.event-title {
     font-size: 24px;
-    margin: 24px 0 10px 0;
+    margin: 23px 0 10px 0;
     color: #218bbb;
     text-transform: uppercase;
   }
@@ -61,13 +71,13 @@
     justify-content: center;
     width: 100px;
     padding: 8px;
-    border-radius: 16px;
-    margin: 24px 0;
-    font-size: 14px;
+    border-radius: 15px;
+    margin: 25px 0;
+    font-size: 15px;
   }
   
   .event .event-right .event-timing img {
-    height: 20px;
+    height: 21px;
     padding-right: 8px;
   }
   
@@ -84,7 +94,7 @@
     .event .event-left .event-date .date,
     .event .event-left .event-date .month {
       display: inline-block;
-      font-size: 24px;
+      font-size: 25px;
     }
   
     .event .event-left .event-date {
