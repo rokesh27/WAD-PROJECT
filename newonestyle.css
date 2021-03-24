@@ -88,6 +88,6 @@ transform: scale(1.2);
 @media only screen and (max-width: 500px)
 {
 	.container{
-		width: 70%;
+		width: 72%;
 	}
 }
