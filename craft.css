@@ -1,0 +1,38 @@
+h1{
+	text-align: center;
+	font-style: italic;
+	font-size:30px;
+}
+* {box-sizing: border-box;}
+
+.gallery {
+  position: relative;
+  width: 25%;
+  float:left;
+  
+}
+.images{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+
+.desc {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: yellow;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.gallery:hover .desc{
+	opacity: 1;
+  
+}
