@@ -29,7 +29,7 @@ h1{
   margin:800px;
   margin:auto;
   text-align: center;
-  border-style: solid;
+  border-style: none;
   
   width:40%;
   
@@ -40,13 +40,13 @@ form{
 }
 input[type="text"],input[type="email"],input[type="number"],input[type="datetime-local"],select,textarea{
 
-  background-color:aqua;
+  background-color:linen;
   color: black;
   width:80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid white;
   border-radius: 4px;
   box-sizing: border-box;
   text-align: center;
@@ -55,11 +55,11 @@ input[type="text"],input[type="email"],input[type="number"],input[type="datetime
   
 }
 input[type=text]:focus,input[type=email]:focus,input[type=number]:focus,input[type=datetime-local]:focus,select:focus,textarea:focus{
-    background-color:orange;
-    border: 2px solid blue;
+    background-color:lightyellow;
+    border: 2px solid white;
 }
 input[type=text] {
-    background-color:aqua;
+    background-color:white;
     color:black;
     background-position: 20px 20px;
     background-repeat: no-repeat;
@@ -74,14 +74,14 @@ textarea{
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: aqua;
+  background-color: rgb(244, 248, 248);
   font-size: 16px;
   resize: none;
   text-align: center;
 
 }
 textarea:focus{
-    background-color:orange;
+    background-color:rgb(226, 219, 206);
 }
 select{
     
@@ -89,7 +89,7 @@ select{
         padding: 15px 17px;
         border: none;
         border-radius: 4px;
-        background-color: aqua;
+        background-color: rgb(227, 235, 235);
         text-align: center;
       
 }
@@ -112,4 +112,6 @@ input[type="submit"]:hover{
   background:orange;
   width:40%;
 }
-
+label{
+  color: #ccc;
+}
