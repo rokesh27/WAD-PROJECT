@@ -1,13 +1,13 @@
 body{
 	margin: 0;
 	padding: 0;
-	background:floralwhite;
+    background-color: #121;
 	font-family: sans-serif;
 }
 .header{
 	font-size: 50px;
 	text-align: center;
-	color: black;
+	color: azure;
 	top: -40px;
 
 }
@@ -70,7 +70,7 @@ transform: scale(1.2);
 	margin:0;
 	padding: 0;
 	font-size: 15px;
-	color: firebrick;
+	color: white;
 }
 .container .box .details .content p{
 	margin:0;
