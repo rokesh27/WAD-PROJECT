@@ -144,6 +144,7 @@ footer{
   }
   .conte{
 	font-family: sans-serif;
+	margin-top: 2%;
   }
   .left-box{
    width:70%;
@@ -173,7 +174,7 @@ font-family: sans-serif;
    color:black;
  }
  .Address-box h2{
-   margin-top: 1%;
+   margin-top: 2%;
    color:black;
  }
  .social a{
@@ -191,6 +192,7 @@ font-family: sans-serif;
   .left-box .conte .social a span{
 	height:40px;
 	width:40px;
+	margin-top: 5%;
 	background: black;
 	line-height: 40px;
 	text-align: center;
