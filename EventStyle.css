@@ -109,9 +109,11 @@
 		width: 100%;
 		text-align: center;
 	}
-.new {
+.new ul a{
 	text-decoration: none;
-	display: inline-block;
+	color: white;
+	font-family: sans-serif;
+	
 }	
 
  
