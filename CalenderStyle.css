@@ -2,11 +2,12 @@
     font-family: "Roboto", sans-serif;
     max-width: 1000px;
     margin: 0 auto;
-    background-color:GhostWhite;
+    background-color:mintcream;
+	
   }
   
   .event-container h3.year {
-    font-size: 40px;
+    font-size: 42px;
     text-align: center;
     border-bottom: 3px solid #b1b1b1;
     background: #222;
