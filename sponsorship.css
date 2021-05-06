@@ -36,58 +36,80 @@ h2{
     font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
     height:300px;
 }
-.col1, .col2, .col3{
-    
-    width:30%;
-    margin:1%;
-    float: left;
-    height:410px;
-    margin-left: 2%;
-    margin-bottom: 5%;
-    
+.container {
+	height: 100%;
+	margin: 20px auto 0;
+		padding: 0 6px;
+		float: left;
+		width: 24%;
+        display: flex;
+	  }
+      .container::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+.container .box{
+position: relative;
+width: 300px;
+height: 240px;
+background:#ff0;
+border:2px solid #fff;
+margin: 15%;
+box-sizing: border-box;
+transition: transform 2s;
+}
+
+.container .box .imgBox{
+	position: relative;
+	overflow: hidden;
+}
+.container .box .imgBox img{
+	max-width: 100%;
+	max-height: 100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .imgBox img{
+transform: scale(1.2);
+}
+.container .box .details{
+	position: absolute;
+	top: 180px;
+	left: 10px;
+	bottom: 5px;
+	right: 5px;
+	background: rgba(0,0,0,0.5);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+.container .box:hover .details{
+	transform: scaleY(1);
+}
+.container .box .details .content
+{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+}
+
+.container .box .details .content p{
+	margin:0;
+	padding: 0;
+	font-size: 10px;
+	color: #fff;
 }
 
 
-
-.col1 h1, .col2 h1, .col3 h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
-    margin-top: 0;
-
-    margin-right: 30%;
-    margin-bottom: 3%;
-    
-}
-.col1{
-    margin-left: 3%;
-}
 .head{
     text-align: left;
 }
 
-.row::after{
-    clear: both;
-}
-a{
-    background:aqua;
-    color:black;
-    cursor: pointer;
-    padding:10px 10px;
-    margin :2px 1px;
-    border:none;
-    border-radius:4px;
-    text-decoration:none;
-    box-shadow: #ccc;
-    text-align: center;
-    position:relative;
-    width:40%;
-    
-}
-.button{
-    text-align: left;
-    margin-right:30%;
-    margin-bottom: 0;
-}
+
+
 .column3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
@@ -226,11 +248,7 @@ margin-top: 50px;
     border-radius: 5px;
     border:none;
     color:whitesmoke;
-    
-    
-    
-
- }
+    }
  .social{
      text-align: center;
      margin-top: 30px;
@@ -249,4 +267,19 @@ margin-top: 50px;
   }
   .left-box .content .social a span:hover{
     background:rgb(245, 15, 15);
+  }
+  @media only screen and (max-width: 700px)
+  {
+      .container{
+          margin-left: 15%;
+          width: 50%;
+  
+      }
+  }
+  @media only screen and (max-width: 500px)
+  {
+      .container{
+          width: 50%;
+          margin-left: 15%;
+      }
   }
