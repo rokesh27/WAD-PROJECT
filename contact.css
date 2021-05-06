@@ -3,7 +3,8 @@
 	padding: 0;
 }
 body{
-	background-image: url(contact.jpg);
+	/*background-image: url(contact.jpg);*/
+	background-color: #00000045;
 	font-size: 14px;
 	color: #fff;
 }

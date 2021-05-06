@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 
-<html lang="en" dir="ltr">
+
   <head>
-    <meta charset="utf-8">
-    
+   
     <link rel="stylesheet" href="registerform.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -145,7 +144,7 @@ landmark</div>
             </div>
 <div class="field btns">
               <button class="prev-2 prev">Previous</button>
-              <button class="submit">submit</button>
+              <button class="submit" onclick="validation();">submit</button>
             </div>
 </div>
 </form>
@@ -153,6 +152,11 @@ landmark</div>
 </div>
 
  <script src="registerform.js"></script> 
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+function validation(){
+swal("Good job!", "You clicked the button!", "success")
+}
+</script>
   </body>
 </html>
