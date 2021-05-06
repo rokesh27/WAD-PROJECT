@@ -1,11 +1,14 @@
+{% load static %}
+{% static "images" as baseUrl %}
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>How to Sponsor a child in need </title>
-        <link rel="stylesheet" href="sponsorship.css">
+        <link rel="stylesheet" href="{% static 'C:\Users\Harsshath\Desktop\WAD\django\wadproject\static\css\sponsorship.css' %}">
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="{% static 'https://kit.fontawesome.com/a076d05399.js' %}"></script>
 
 
     </head>
@@ -23,95 +26,29 @@
         <p>Call 1-800-888-3089, chat or send an email. Our team is ready to help</p><br><br>
         <p>"Sponsorship is something that melts my soul. You are never the same again..."</p>
     </div>
-    <div class="row1">
-        <div class="col1">
-            <img src="orphan1.jpg" height="400px" width="300px">
-          <h1>Divya</h1>
-       <div class="button">
-    <h2><a href="sponsored.html">SPONSOR NOW</a></h2>
-
-         </div>
+   
+  
+    {% for child in child%}
+<div class="container">
+	
+	<div class="box"><div class="imgBox">
+		<img src="{{child.img.url}}" width="300" height="240">
+		<div class="details"><div class="content"><p>{{child.name}}</p>
+        <p>{{child.age}}</p>
         </div>
-        <div class="col2">
-            <img src="orphan3.jfif" height="400px" width="300px">
-          <h1>Anand</h1>
-       <div class="button">
-    <h2><a href="sponsored.html">SPONSOR NOW</a></h2>
-
-         </div>
+        </div> 
+        <div class="button">
+        <a href="sponsored.html">SPONSOR NOW</a>
         </div>
-        <div class="col3">
-            <img src="orphan2.jpg" height="400px" width="300px">
-          <h1>Geetha</h1>
-       <div class="button">
-    <h2><a href="sponsored.html">SPONSOR NOW</a></h2>
-
-         </div>
-        </div>
-        
-        
-    </div>
+	</div></div>
+	
+   
 </div>
-    <div class="row2">
-        <div class="col1">
-            <img src="orphan4.jpg" height="400px" width="300px">
-          <h1>Arun</h1>
-       <div class="button">
-    <h2><a href="sponsored.html">SPONSOR NOW</a></h2>
+  {% endfor %}
+  <br>
+  
 
-         </div>
-        </div>
-        <div class="col2">
-            <img src="orphan5.jfif" height="400px" width="300px">
-          <h1>Balu</h1>
-       <div class="button">
-    <h2><a href="sponsored.html">SPONSOR NOW</a></h2>
-
-         </div>
-        </div>
-        <div class="col3">
-            <img src="orphan7.jfif" height="400px" width="300px">
-          <h1>Chandu</h1>
-       <div class="button">
-    <h2><a href="sponsored.html">SPONSOR NOW</a></h2>
-
-         </div>
-        </div>
-        
-        
-    </div>
-    </div>
-    <div class="row3">
-        <div class="col1">
-            <img src="orphan8.jfif" height="400px" width="300px">
-          <h1>Harish</h1>
-       <div class="button">
-    <h2><a href="sponsored.html">SPONSOR NOW</a></h2>
-
-         </div>
-        </div>
-        <div class="col2">
-            <img src="orphan6.jfif" height="400px" width="300px">
-          <h1>Rajesh</h1>
-       <div class="button">
-    <h2><a href="sponsored.html">SPONSOR NOW</a></h2>
-
-         </div>
-        </div>
-        <div class="col3">
-            <img src="orphan9.jpg" height="400px" width="300px">
-          <h1>Aadhya</h1>
-       <div class="button">
-    <h2><a href="sponsored.html">SPONSOR NOW</a></h2>
-
-         </div>
-        </div>
-        
-        
-    </div>
-        </div>
-    </div>
-    <div class="row4">
+       <div class="row4">
         <div class="column3">
             
 <h1>What is child sponsorship?</h1>
