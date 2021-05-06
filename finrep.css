@@ -8,12 +8,39 @@ body{
 	padding-top: 250px;
 	width: 100%;
 	height: 720px;
-	background-image: url(bad.jpeg);
+	background-image: url(finrep.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	text-align: center;
+}
+.heading{
+	text-align: center;
+}
+.matter h2 span,.matter h3 span{
+	top: 20px;
+	margin-top: 25px;
+	padding:10px; 
+	font-size: 50px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	
+	color: #fff;	
+}
+.cont img{
+	width: 355px;
+	height: 317px;
+	float: right;
+	
+	box-shadow: gray 0px 5px 40px;
+	margin: 18px 20px 18px 20px;
+}
+.contnt p{
+	font-size: 25px;
+	
+	line-height: 1.8;
+	padding: 15px 15px 15px 25px;
 }
 img{
 	width: 100%;
@@ -27,7 +54,7 @@ img{
 	float: left;
 	width: 16%;
 	height: 25%;
-	margin-left: 230px;
+	margin-left: 25%;
 	margin-right: 2%;
 	margin-top: 2%;
 	padding: 2%;
@@ -45,7 +72,7 @@ img{
 	width: 16%;
 	height: 25%;
 	margin-left: 2%;
-	margin-right: 2%;
+	margin-right: 30%;
 	margin-top: 2%;
 	padding: 2%;
 	border:none;
