@@ -1,0 +1,131 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+	font-family: sans-serif;
+}
+.header{
+	padding-top: 250px;
+	width: 100%;
+	height: 720px;
+	background-image: url(bad.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+}
+img{
+	width: 100%;
+	height: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	align-items: center;
+}
+
+.column1{
+	float: left;
+	width: 16%;
+	height: 25%;
+	margin-left: 230px;
+	margin-right: 2%;
+	margin-top: 2%;
+	padding: 2%;
+	border:none;
+	background-color:#cccccc1c; 
+	text-align: center;
+}
+.column1:hover{
+	transform: translateY(-7px);
+	box-shadow: rgba(153, 153, 153, 0.2) 0px 5px 40px;
+	/*rgba(153, 153, 153, 0.2)*/
+}
+.column2{
+	float: left;
+	width: 16%;
+	height: 25%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	padding: 2%;
+	border:none;
+	text-align: center;
+	background-color: #cccccc1c;
+}
+.column2:hover{
+	transform: translateY(-7px);
+	box-shadow: rgba(153, 153, 153, 0.2) 0px 5px 40px;
+
+}
+
+.container .box{
+position: relative;
+width: 300px;
+height: 240px;
+background:#ff0;
+border:2px solid #fff;
+margin: 10px;
+box-sizing: border-box;
+transition: transform 2s;
+}
+
+.container .box .imgBox{
+	position: relative;
+	overflow: hidden;
+}
+.container .box .imgBox img{
+	max-width: 100%;
+	max-height: 100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .imgBox img{
+transform: scale(1.2);
+}
+.container .box .details{
+	position: absolute;
+	top: 180px;
+	left: 10px;
+	bottom: 5px;
+	right: 5px;
+	background: rgba(0,0,0,0.5);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+.container .box:hover .details{
+	transform: scaleY(1);
+}
+.container .box .details .content
+{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+}
+.container .box .details .content h4{
+	margin:0;
+	padding: 0;
+	font-size: 15px;
+	color: #ff0;
+}
+.container .box .details .content p{
+	margin:0;
+	padding: 0;
+	font-size: 10px;
+	color: #fff;
+}
+	@media only screen and (max-width: 700px)
+{
+	.container{
+	
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 500px)
+{
+	.container{
+		width: 70%;
+	}
+}
